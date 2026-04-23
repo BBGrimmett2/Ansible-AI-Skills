@@ -1,0 +1,11 @@
+# Development dependencies for Ansible AI Skills repository
+
+# YAML processing
+PyYAML>=6.0
+
+# Code quality
+yamllint>=1.35.0
+pre-commit>=3.5.0
+
+# Markdown linting (optional, can use npm instead)
+# Install with: npm install -g markdownlint-cli

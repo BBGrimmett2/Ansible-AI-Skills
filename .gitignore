@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Ansible
+*.retry
+.ansible/
+
+# Secrets (just in case)
+*.pem
+*.key
+*.secret
+credentials.yml
+vault.yml
+secrets.yml
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Documentation builds
+_build/
+_site/
+
+# Package files
+*.tar.gz
+*.zip

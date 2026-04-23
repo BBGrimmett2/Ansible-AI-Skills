@@ -1,0 +1,41 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "AAP",
+    "Ansible",
+    "bgrimmet",
+    "CoP",
+    "cspell",
+    "FQCN",
+    "Grimmet",
+    "infra",
+    "Jinja",
+    "markdownlint",
+    "redhat",
+    "SSOT",
+    "yamllint",
+    "automationplatform",
+    "GitOps",
+    "idempotency",
+    "idempotent",
+    "playbook",
+    "playbooks",
+    "rulebook",
+    "rulebooks",
+    "scm",
+    "workflow",
+    "workflows"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".git/**",
+    "*.json",
+    "package-lock.json"
+  ],
+  "ignoreRegExpList": [
+    "/```[\\s\\S]*?```/g",
+    "/`[^`]*`/g",
+    "/https?:\\/\\/[^\\s]*/g"
+  ]
+}
