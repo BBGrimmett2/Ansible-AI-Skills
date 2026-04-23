@@ -169,7 +169,7 @@ This project is provided as-is for educational and automation purposes. Individu
 
 ## Maintainers
 
-- Brian Grimmet (@bgrimmet)
+- Brian Grimmet (@BBGrimmett2)
 
 ## Acknowledgments
 
