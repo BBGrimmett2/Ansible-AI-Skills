@@ -13,6 +13,7 @@ This repository provides specialized knowledge modules (skills) that enable AI a
 Applies **Good Practices for Ansible (GPA)** from the [Red Hat Communities of Practice](https://github.com/redhat-cop/automation-good-practices) when writing or reviewing Ansible content.
 
 **Use this skill when:**
+
 - Writing or reviewing Ansible roles, playbooks, collections, inventories, or plugins
 - Ensuring code follows the Zen of Ansible principles
 - Structuring automation projects for maintainability and reusability
@@ -20,6 +21,7 @@ Applies **Good Practices for Ansible (GPA)** from the [Red Hat Communities of Pr
 - Validating YAML coding style and Jinja2 templating patterns
 
 **Key capabilities:**
+
 - Role design and structure validation
 - Variable naming and precedence guidance
 - Platform and provider abstraction patterns
@@ -34,6 +36,7 @@ Applies **Good Practices for Ansible (GPA)** from the [Red Hat Communities of Pr
 Implements **Ansible Automation Platform (AAP) configuration as code** using the `infra.aap_configuration` collection from Red Hat CoP.
 
 **Use this skill when:**
+
 - Managing AAP 2.5+ configuration as YAML
 - Working with Automation Controller, Hub, Gateway, or EDA configurations
 - Implementing GitOps patterns for AAP platform management
@@ -41,6 +44,7 @@ Implements **Ansible Automation Platform (AAP) configuration as code** using the
 - Structuring multi-environment AAP configuration repositories
 
 **Key capabilities:**
+
 - Dispatch role orchestration and dependency ordering
 - Controller, Hub, Gateway, and EDA object management
 - Environment-based configuration organization
@@ -52,7 +56,7 @@ Implements **Ansible Automation Platform (AAP) configuration as code** using the
 
 ## Repository Structure
 
-```
+```text
 ansible-ai-skills/
 ├── README.md                          # This file
 ├── CONTRIBUTING.md                    # Contribution guidelines
@@ -73,19 +77,23 @@ These skills are designed to work seamlessly with [Claude Code](https://claude.c
 ### Using Skills in Your Project
 
 1. **Clone this repository:**
+
    ```bash
    git clone https://github.com/yourusername/ansible-ai-skills.git
    cd ansible-ai-skills
    ```
 
 2. **Reference a skill in your project:**
+
    Add skill references in your project's `.claude/CLAUDE.md` file or simply mention the skill when working with Claude Code:
+
    ```markdown
    When working with Ansible content, apply the rh-ansible-cop skill.
    When managing AAP configuration, apply the rh-aap-config-as-code skill.
    ```
 
 3. **Let the AI assistant guide you:**
+
    The skills provide comprehensive context about best practices, patterns, and anti-patterns to avoid.
 
 ## Skill Development
@@ -109,6 +117,7 @@ description: Brief description of what the skill does and when to use it
 ## Use Cases
 
 ### Ansible Development
+
 - Create roles following Red Hat CoP standards
 - Structure collections for enterprise distribution
 - Implement proper variable precedence and naming
@@ -116,6 +125,7 @@ description: Brief description of what the skill does and when to use it
 - Write idempotent, check-mode compatible tasks
 
 ### AAP Platform Management
+
 - Define Controller job templates, projects, and workflows as code
 - Configure Hub namespaces, collections, and execution environments
 - Set up Gateway authentication and routing
@@ -123,6 +133,7 @@ description: Brief description of what the skill does and when to use it
 - Organize multi-environment configurations
 
 ### Code Review and Validation
+
 - Validate Ansible code against industry best practices
 - Identify anti-patterns and suggest improvements
 - Ensure consistent coding style and structure
@@ -132,6 +143,7 @@ description: Brief description of what the skill does and when to use it
 ## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
+
 - How to add new skills
 - Skill quality guidelines
 - Testing and validation requirements
@@ -140,6 +152,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 ## Validation
 
 This repository includes automated validation workflows:
+
 - YAML syntax validation
 - Markdown linting
 - Skill structure validation
@@ -151,14 +164,17 @@ All skills must pass validation before merging.
 ## Resources
 
 ### Red Hat Ansible CoP
+
 - [automation-good-practices](https://github.com/redhat-cop/automation-good-practices) - Official GPA documentation
 - [Rendered Documentation](https://redhat-cop.github.io/automation-good-practices/)
 
 ### AAP Configuration as Code
+
 - [infra.aap_configuration](https://github.com/redhat-cop/infra.aap_configuration) - Unified AAP configuration collection
 - [Galaxy Collection](https://galaxy.ansible.com/ui/repo/published/infra/aap_configuration/)
 
 ### Ansible Best Practices
+
 - [Ansible Documentation](https://docs.ansible.com/)
 - [Ansible Lint](https://ansible-lint.readthedocs.io/)
 - [Red Hat Communities of Practice](https://github.com/redhat-cop)

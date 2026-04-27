@@ -208,6 +208,7 @@ git push origin feature/my-new-skill
 ```
 
 Then create a Pull Request on GitHub with:
+
 - Clear title describing the change
 - Description of what was added/changed
 - Reference to any related issues
@@ -218,22 +219,25 @@ Then create a Pull Request on GitHub with:
 All contributions must pass automated validation:
 
 ### YAML Validation
+
 - Syntax correctness
 - Proper indentation (2 spaces)
 - Valid frontmatter
 
 ### Markdown Validation
+
 - Proper formatting
 - Valid links
 - Heading hierarchy
-- Line length (120 characters max)
 
 ### Skill Structure Validation
+
 - Required files present (SKILL.md, reference.md)
 - Valid YAML frontmatter
 - Required metadata fields
 
 ### Spell Check
+
 - Technical terms added to `.cspell.json` as needed
 - No typos in documentation
 
@@ -243,7 +247,7 @@ Follow these conventions for commit messages:
 
 ### Format
 
-```
+```text
 <type>: <subject>
 
 <body>
@@ -263,7 +267,7 @@ Follow these conventions for commit messages:
 
 ### Examples
 
-```
+```text
 feat: Add Ansible Molecule testing skill
 
 - Add comprehensive SKILL.md with testing patterns
@@ -273,7 +277,7 @@ feat: Add Ansible Molecule testing skill
 Closes #42
 ```
 
-```
+```text
 fix: Correct AAP configuration variable names
 
 Update variable names in rh-aap-config-as-code skill to match
