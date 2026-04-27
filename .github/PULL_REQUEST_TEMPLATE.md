@@ -46,7 +46,7 @@
 
 - [ ] I have tested this change and it works as expected
 - [ ] I have updated documentation (if applicable)
-- [ ] This PR follows the repository's [contribution guidelines](CONTRIBUTING.md)
+- [ ] This PR follows the repository's [contribution guidelines](../CONTRIBUTING.md)
 - [ ] All required files are present (SKILL.md, reference.md for new skills)
 - [ ] YAML frontmatter is properly formatted with `name` and `description`
 - [ ] All external links are valid and point to stable resources
