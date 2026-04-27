@@ -191,13 +191,28 @@ If a change introduces a new dependency, place the data where dispatch can proce
 
 Typical objects include:
 
-- `aap_organizations`
+- `controller_ad_hoc_commands`
+- `controller_ad_hoc_commands_cancel`
+- `controller_bulk_hosts`
+- `controller_credential_input_sources`
 - `controller_credential_types`
 - `controller_credentials`
-- `controller_projects`
+- `controller_execution_environments`
+- `controller_groups`
+- `controller_host`
+- `controller_instance_groups`
+- `controller_instances`
 - `controller_inventories`
+- `controller_inventory_sources`
+- `controller_launch_jobs`
 - `controller_templates`
-- workflow templates, schedules, notifications, inventories, groups, hosts, execution environments, and settings
+- `controller_cancel_jobs`
+- `controller_labels`
+- `controller_license`
+- `controller_notifications`
+- `controller_projects`
+- `controller_schedules`
+- `controller_workflows`
 
 Use Controller for:
 
@@ -211,12 +226,14 @@ Use Controller for:
 
 Typical objects include:
 
-- `hub_namespaces`
 - `hub_collections`
+- `hub_collection_remotes`
+- `hub_collection_repositories`
+- `hub_ee_images`
 - `hub_ee_registries`
 - `hub_ee_repositories`
-- `hub_ee_images`
-- collection remotes and repositories
+- `hub_namespaces`
+- `hub_custom_collections`
 
 Use Hub for:
 
@@ -229,15 +246,10 @@ Use Hub for:
 
 Typical objects include:
 
-- `gateway_authenticators`
+- `aap_applications`
 - `gateway_authenticator_maps`
-- `gateway_settings`
+- `gateway_authenticators`
 - `aap_organizations`
-- `aap_teams`
-- `aap_user_accounts`
-- `gateway_applications`
-- `gateway_services`
-- `gateway_routes`
 - `gateway_role_definitions`
 - `gateway_role_team_assignments`
 - `gateway_role_user_assignments`
@@ -251,7 +263,16 @@ Use Gateway for:
 
 ### EDA
 
-Typical objects include EDA credentials, projects, decision environments, and rulebook activations.
+Typical objects include:
+
+- `eda_controller_tokens`
+- `eda_credential_input_sources`
+- `eda_credential_types`
+- `eda_credentials`
+- `eda_decision_environments`
+- `eda_event_streams`
+- `eda_projects`
+- `eda_rulebook_activations`
 
 Use EDA for:
 
