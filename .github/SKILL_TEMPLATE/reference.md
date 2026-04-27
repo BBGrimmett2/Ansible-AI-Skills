@@ -4,11 +4,15 @@ Quick reference guide for [Skill Name].
 
 ## Official Sources
 
+<!-- Replace these example URLs with actual resources
+
 | Resource | URL |
 |----------|-----|
 | **Documentation** | https://example.com |
 | **Repository** | https://github.com/example/repo |
 | **Community** | https://example.com/community |
+
+-->
 
 ## Quick Commands
 

@@ -3,13 +3,10 @@
 default: true
 
 # MD013 - Line length
-MD013:
-  line_length: 120
-  heading_line_length: 80
-  code_block_line_length: 120
-  code_blocks: false
-  tables: false
-  headings: true
+# Disabled: Modern editors have soft-wrap, and technical documentation often contains
+# long URLs, code examples, and technical terms that are more readable without forced
+# line breaks. Enforcing line length creates awkward breaks and reduces readability.
+MD013: false
 
 # MD033 - Inline HTML
 MD033:

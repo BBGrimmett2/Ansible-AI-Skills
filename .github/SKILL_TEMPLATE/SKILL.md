@@ -152,9 +152,11 @@ Common issues and solutions:
 
 Link to authoritative sources:
 
+<!-- Replace these example URLs with actual resources
 - [Official Documentation](https://example.com)
 - [Project Repository](https://github.com/example/repo)
 - [Related Guide](https://example.com/guide)
+-->
 
 ## Version Compatibility
 

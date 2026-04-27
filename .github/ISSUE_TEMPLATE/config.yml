@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/BBGrimmett2/Ansible-AI-Skills/discussions
+    about: Ask questions or discuss ideas with the community
+  - name: Red Hat Ansible CoP
+    url: https://github.com/redhat-cop/automation-good-practices
+    about: Questions about Red Hat CoP Good Practices for Ansible
+  - name: AAP Configuration Collection
+    url: https://github.com/redhat-cop/infra.aap_configuration
+    about: Questions about the infra.aap_configuration collection
