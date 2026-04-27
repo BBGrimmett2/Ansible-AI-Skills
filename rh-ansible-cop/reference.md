@@ -6,9 +6,9 @@ Links and section mapping for the [redhat-cop/automation-good-practices](https:/
 
 | Resource | URL |
 |----------|-----|
-| **GPA (rendered)** | https://redhat-cop.github.io/automation-good-practices/ |
-| **Repository** | https://github.com/redhat-cop/automation-good-practices |
-| **Contributing** | https://github.com/redhat-cop/automation-good-practices/blob/main/CONTRIBUTE.adoc |
+| **GPA (rendered)** | <https://redhat-cop.github.io/automation-good-practices/> |
+| **Repository** | <https://github.com/redhat-cop/automation-good-practices> |
+| **Contributing** | <https://github.com/redhat-cop/automation-good-practices/blob/main/CONTRIBUTE.adoc> |
 
 ## Repo structure (six sections + coding style)
 
