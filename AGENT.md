@@ -15,7 +15,7 @@ It is written primarily for **AI coding agents** to ensure consistency, maintain
 
 Agents SHOULD reference the following template repository for structure and patterns:
 
-- https://github.com/Megalith-Development/Ansible-Template-Repo
+- <https://github.com/Megalith-Development/Ansible-Template-Repo>
 
 If a template is not present:
 
@@ -30,7 +30,7 @@ If a template is not present:
 
 All development MUST align with:
 
-- https://redhat-cop.github.io/automation-good-practices/
+- <https://redhat-cop.github.io/automation-good-practices/>
 
 This is the **baseline standard**. This guide builds on top of it.
 
