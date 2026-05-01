@@ -1,4 +1,4 @@
-# AGENT.md — Ansible Development Guide for AI Coding Agents
+# AGENTS.md — Ansible Development Guide for AI Coding Agents
 
 ## Purpose
 
